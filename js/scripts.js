@@ -39,7 +39,7 @@ $(document).ready(function() {
     $(".place").last().click(function() {
       $("#show-places").show();
 
-      $("#show-places h2").text(newPlace.location);
+      $("#show-places h3").text(newPlace.location);
       $(".date").text(newPlace.date);
 
       $("ul#landmarks").text("");
